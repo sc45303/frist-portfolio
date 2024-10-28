@@ -22,7 +22,7 @@ const Contect = () => {
                   ADDRESS
                 </h2>
                 <p className="mt-1 text-white">
-                  liht house market, near city court karachi, pakistan
+                  light house market, near city court karachi, pakistan
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
