@@ -1,0 +1,30 @@
+@keyframes slideRight{
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.slideRight{
+  animation-name: slideRight;
+  animation-duration: 2s;
+}
+@keyframes slideBarTop{
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.slideBarTop{
+  opacity: 0;
+  animation-name: slideBarTop;
+  animation-duration: 2s;
+
+}
