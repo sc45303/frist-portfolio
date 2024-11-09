@@ -36,7 +36,8 @@ const Skills = () => {
         }
       }, 15); // Adjust speed by changing this interval (15ms gives a smoother effect)
     });
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Disable ESLint warning for missing dependencies
 
   return (
     <div id="skills">
