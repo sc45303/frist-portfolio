@@ -34,7 +34,7 @@ const Footer = () => {
             </Link>
             <span>
               <Link
-                href={"https://www.facebook.com"}
+                href={""}
                 target="blank"
                 className="text-white  hover:text-[#66fcf1]"
               >

@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import heroImage from "../../../public/assets/pic/Untitled design (5).png";
-import "../../app/styles/heroAnimation.css";
 
 const Hero = () => {
   return (

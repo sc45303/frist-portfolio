@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import aboutImage from "../../../public/assets/pic/Untitled design (6).png";
-import "../styles/aboutAnimation.css"; // Import about-specific animations
+// Import about-specific animations
 
 const About = () => {
   return (

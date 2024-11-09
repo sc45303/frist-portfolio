@@ -1,5 +1,5 @@
 "use client";
-import "../styles/animation.css";
+
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -23,10 +23,10 @@ const Navbar = () => {
               alt="Suhail"
               height={150}
               width={150}
-              className="w-[50px]  h-[50px] rounded-full  slideRight "
+              className="w-[50px]  h-[50px] rounded-full   "
             />
 
-            <span className="ml-3 text-xl text-[#66fcf1] slideRight ">
+            <span className="ml-3 text-xl text-[#66fcf1]  ">
               Suhail Khan
               <div className="w-[100px] h-[2px] bg-[#66fcf1]"></div>
             </span>
@@ -44,11 +44,11 @@ const Navbar = () => {
           <nav
             className={` ${
               isOpen ? "block" : "hidden"
-            }  md:flex md:items-center md:space-x-6 text-base w-full  md:w-auto mt-4 md:mt-0 `}
+            }  md:flex md:items-center md:space-x-6 text-base w-full  md:w-auto mt-4 md:mt-0 move `}
           >
             <Link
               href={"/"}
-              className="block md:inline-block text-[#66fcf1] p-2"
+              className="block md:inline-block text-[#66fcf1] p-2 "
             >
               Home
             </Link>
